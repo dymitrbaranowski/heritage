@@ -11,7 +11,7 @@
     "predeploy": "rm -rf build && npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://dymitrbaranowski.github.io/heritage",
+  "homepage": "https://dymitrbaranowski.github.io/heritage/",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
