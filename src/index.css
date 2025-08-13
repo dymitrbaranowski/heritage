@@ -201,7 +201,7 @@ body {
   justify-content: center;
   color: #ffff;
   background-color: #2d303c;
-  background-image: url("../public/img/hero-bg.jpg");
+  background-image: url("./asset/img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }

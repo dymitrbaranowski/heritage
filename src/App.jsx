@@ -1,3 +1,9 @@
+import cardIcon1 from "./asset/icon/cart-icon-1.svg";
+import cardIcon2 from "./asset/icon/cart-icon-2.svg";
+import cardIcon3 from "./asset/icon/cart-icon-3.svg";
+import services1 from "./asset/img/services-1.jpg";
+import services2 from "./asset/img/services-2.jpg";
+
 function Header() {
   return (
     <header class="header">
@@ -51,7 +57,7 @@ export default function App() {
             </div>
             <div class="cards-wrapper">
               <div class="card">
-                <img src="../public/img/cart-icon-1.svg" alt="icon" />
+                <img src={cardIcon1} alt="icon" />
                 <h4>Graphic Design</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -59,7 +65,7 @@ export default function App() {
                 </p>
               </div>
               <div class="card">
-                <img src="../public/img/cart-icon-2.svg" alt="icon" />
+                <img src={cardIcon2} alt="icon" />
                 <h4>Awesome code</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -67,7 +73,7 @@ export default function App() {
                 </p>
               </div>
               <div class="card">
-                <img src="../public/img/cart-icon-3.svg" alt="icon" />
+                <img src={cardIcon3} alt="icon" />
                 <h4>free template</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -85,7 +91,7 @@ export default function App() {
             </div>
             <div class="cards-wrapper">
               <div class="card">
-                <img src="../public/img/services-1.jpg" alt="img" />
+                <img src={services1} alt="img" />
                 <h4>SERVICES one</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -98,7 +104,7 @@ export default function App() {
                 </a>
               </div>
               <div class="card">
-                <img src="../public/img/services-2.jpg" alt="img" />
+                <img src={services2} alt="img" />
                 <h4>SERVICES two</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
