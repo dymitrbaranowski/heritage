@@ -3,6 +3,9 @@ import cardIcon2 from "./asset/icon/cart-icon-2.svg";
 import cardIcon3 from "./asset/icon/cart-icon-3.svg";
 import services1 from "./asset/img/services-1.jpg";
 import services2 from "./asset/img/services-2.jpg";
+import nabImg1 from "./asset/img/tab-1.jpg";
+import nabImg2 from "./asset/img/tab-2.jpg";
+import nabImg3 from "./asset/img/tab-3.jpg";
 
 function Header() {
   return (
@@ -134,7 +137,7 @@ export default function App() {
                 <button type="button">Tab Button 3</button>
               </div>
               <div class="tabs__item">
-                <img src="img/tab-1.jpg" alt="" />
+                <img src={nabImg1} alt="" />
                 <h4>Some Title Here</h4>
                 <div class="tabs__desc">
                   <p>
@@ -149,7 +152,7 @@ export default function App() {
                 </div>
               </div>
               <div class="tabs__item">
-                <img src="img/tab-2.jpg" alt="" />
+                <img src={nabImg2} alt="" />
                 <h4>Some Title Here 2</h4>
                 <div class="tabs__desc">
                   <p>
@@ -164,7 +167,7 @@ export default function App() {
                 </div>
               </div>
               <div class="tabs__item">
-                <img src="img/tab-3.jpg" alt="" />
+                <img src={nabImg3} alt="" />
                 <h4>Some Title Here 3</h4>
                 <div class="tabs__desc">
                   <p>
