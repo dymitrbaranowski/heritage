@@ -7,28 +7,7 @@ import nabImg1 from "./asset/img/tab-1.jpg";
 import nabImg2 from "./asset/img/tab-2.jpg";
 import nabImg3 from "./asset/img/tab-3.jpg";
 
-function Header() {
-  return (
-    <header class="header">
-      <div class="container header__container">
-        <a href="#main">
-          <h1 class="logo">Хранители Наследия!</h1>
-        </a>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li>
-              <a href="#main">Home</a>
-            </li>
-            <li>
-              <a href="#footer">Contact</a>
-            </li>
-          </ul>
-          <span>Тут будет время!</span>
-        </nav>
-      </div>
-    </header>
-  );
-}
+import Header from "./components/Header";
 
 export default function App() {
   return (
