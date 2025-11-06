@@ -1,13 +1,13 @@
-import cardIcon1 from "./asset/icon/cart-icon-1.svg";
-import cardIcon2 from "./asset/icon/cart-icon-2.svg";
-import cardIcon3 from "./asset/icon/cart-icon-3.svg";
-import services1 from "./asset/img/services-1.jpg";
-import services2 from "./asset/img/services-2.jpg";
-import nabImg1 from "./asset/img/tab-1.jpg";
-import nabImg2 from "./asset/img/tab-2.jpg";
-import nabImg3 from "./asset/img/tab-3.jpg";
+// import cardIcon1 from "./asset/icon/cart-icon-1.svg";
+// import cardIcon2 from "./asset/icon/cart-icon-2.svg";
+// import cardIcon3 from "./asset/icon/cart-icon-3.svg";
+// import services1 from "./asset/img/services-1.jpg";
+// import services2 from "./asset/img/services-2.jpg";
+// import nabImg1 from "./asset/img/tab-1.jpg";
+// import nabImg2 from "./asset/img/tab-2.jpg";
+// import nabImg3 from "./asset/img/tab-3.jpg";
 
-import Header from "./components/Header";
+import Header from "../Header/Header";
 
 export default function App() {
   return (
@@ -31,7 +31,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section class="about common-section">
+        {/* <section class="about common-section">
           <div class="container">
             <div class="title-wrapper">
               <h3 class="title">Направления нажей деятельности:</h3>
@@ -162,10 +162,10 @@ export default function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
-      <footer id="footer" class="footer">
+      {/* <footer id="footer" class="footer">
         <div class="footer__desc">
           <div class="container footer__descr-container">
             <div class="footer__about">
@@ -226,7 +226,7 @@ export default function App() {
             <p>&#169; 2025 Хранители Наследия. Все права защищены.</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

@@ -1,4 +1,4 @@
-const now = new Date();
+// const now = new Date();
 export default function Header() {
   return (
     <header class="header">
@@ -15,7 +15,7 @@ export default function Header() {
               <a href="#footer">Contact</a>
             </li>
           </ul>
-          <span>Время сейчас: {now.toLocaleTimeString()}</span>
+          {/* <span>Время сейчас: {now.toLocaleTimeString()}</span> */}
         </nav>
       </div>
     </header>
