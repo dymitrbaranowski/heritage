@@ -34,13 +34,13 @@ export default function App() {
         <section class="about common-section">
           <div class="container">
             <div class="title-wrapper">
-              <h3 class="title">what we do</h3>
+              <h3 class="title">Направления нажей деятельности:</h3>
               <p class="subtitle">This is some text inside of a div block.</p>
             </div>
             <div class="cards-wrapper">
               <div class="card">
                 <img src={cardIcon1} alt="icon" />
-                <h4>Graphic Design</h4>
+                <h4>Graphic design</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique.
@@ -69,12 +69,12 @@ export default function App() {
           <div class="container">
             <div class="title-wrapper">
               <h3 class="title">services</h3>
-              <p class="subtitle">This is some text inside of a div block.</p>
+              <p class="subtitle">Приглашаем к сотрудничеству.</p>
             </div>
             <div class="cards-wrapper">
               <div class="card">
                 <img src={services1} alt="img" />
-                <h4>SERVICES one</h4>
+                <h4>services one </h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique.Lorem
@@ -203,7 +203,7 @@ export default function App() {
                 </li>
                 <li>
                   <img src="../public/img/icon-fb.svg" alt="facebook" />
-                  <a href="#!">Facebook</a>
+                  <a href="https://www.facebook.com/radimir.milar">Facebook</a>
                 </li>
                 <li>
                   <img src="../public/img/icon-pt.svg" alt="pinterest" />
