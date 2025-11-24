@@ -1,3 +1,4 @@
+import { Routes, Route, NavLink } from "react-router-dom";
 // const now = new Date();
 export default function Header() {
   return (
@@ -9,13 +10,20 @@ export default function Header() {
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li>
-              <a href="#main">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#footer">Contact</a>
+              <NavLink to="/pictures">Pictures</NavLink>
             </li>
           </ul>
-          {/* <span>Время сейчас: {now.toLocaleTimeString()}</span> */}
+          <Routes>
+            <Route path="/" element={<div>Home</div>} />
+            <Route path="/pictures" element={<div>Pictures</div>} />
+            <Route
+              path="/pictures/:pictureId"
+              element={<div>Pictures element</div>}
+            />
+          </Routes>
         </nav>
       </div>
     </header>
