@@ -154,7 +154,7 @@ body {
 
 /* Header--------------------- */
 
-.header {
+/* .header {
   padding: 0 20px;
   position: fixed;
   top: 0;
@@ -177,11 +177,11 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   color: #69b9ff;
-}
-.header__nav ul {
+} */
+/* .header__nav ul {
   display: flex;
-}
-.header__nav li + li {
+} */
+/* .header__nav li + li {
   margin-left: 40px;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 .header__nav a:active {
   color: #0065bd;
-}
+} */
 
 /* Main-------------- */
 

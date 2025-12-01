@@ -1,17 +1,17 @@
-import Header from "../Header/Header";
 import { Routes, Route } from "react-router-dom";
+import { SharedLayout } from "../layout/SharedLayout";
+import { Home } from "../../pages/home/Home";
+import { About } from "../../pages/about/About";
+import { Gallery } from "../../pages/gallery/Gallery";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main id="main">
-        <section class="wellcome">
-          <div class="container">
-            <h2 class="wellcome__heading">Хранители Наследия</h2>
-          </div>
-        </section>
-      </main>
-    </>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="gallery" element={<Gallery />} />
+      </Route>
+    </Routes>
   );
 }
