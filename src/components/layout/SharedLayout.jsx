@@ -4,37 +4,39 @@ import { Outlet } from "react-router-dom";
 import {
   Container,
   Header,
-  HeaderContainer,
+  ItemLink,
+  ItemUl,
   ListItem,
   Logo,
   Nav,
-  Ul,
 } from "./SharedLayout.styles";
 
 export const SharedLayout = () => {
   return (
-    <Container>
+    <>
       <Header>
-        <HeaderContainer>
+        {/* <Container> */}
+        <Container>
           <Logo>Heritage Keepers </Logo>
           <Nav>
-            <Ul>
+            <ItemUl>
               <ListItem>
-                <NavLink to="/" end>
+                <ItemLink to="/" end>
                   Home
-                </NavLink>
+                </ItemLink>
               </ListItem>
               <ListItem>
-                <NavLink to="/about">About</NavLink>
+                <ItemLink to="/about">About</ItemLink>
               </ListItem>
               <ListItem>
-                <NavLink to="/gallery">Gallery</NavLink>
+                <ItemLink to="/gallery">Gallery</ItemLink>
               </ListItem>
-            </Ul>
+            </ItemUl>
           </Nav>
-        </HeaderContainer>
+          {/* </Container> */}
+        </Container>
       </Header>
       <Outlet />
-    </Container>
+    </>
   );
 };
