@@ -4,6 +4,7 @@ export const About = () => {
   return (
     <Main>
       <h1>About Us</h1>
+      <img src="/public/vite.svg" />
       <p>
         МЕЖДУНАРОДНЫЙ ЦЕНТР "Хранители наследия" августа 2025 г. <br />
         Устав 1. <br />

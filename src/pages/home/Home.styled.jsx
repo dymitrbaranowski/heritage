@@ -13,7 +13,7 @@ export const Wellcome = styled.div`
   color: #ffff;
   text-align: center;
   background-color: #2d303c;
-  background-image: url("/src/asset/img/hero-bg.jpg");
+  background-image: url("/public/img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 `;

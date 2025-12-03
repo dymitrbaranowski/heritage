@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import { SharedLayout } from "../layout/SharedLayout";
-import { Home } from "../../pages/home/Home";
-import { About } from "../../pages/about/About";
-import { Gallery } from "../../pages/gallery/Gallery";
+import { SharedLayout } from "@/components/layout/SharedLayout";
+import { Home } from "@/pages/home/Home";
+import { About } from "@/pages/about/About";
+import { Gallery } from "@/pages/gallery/Gallery";
 
 export default function App() {
   return (
