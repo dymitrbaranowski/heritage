@@ -17,7 +17,7 @@ export const Home = () => {
         <LinkDiv>
           <Button />
           <LinkPrimary>sign up</LinkPrimary>
-          <LearnLink>Learn more</LearnLink>
+          {/* <LearnLink>Learn more</LearnLink> */}
         </LinkDiv>
       </Container>
     </Wellcome>

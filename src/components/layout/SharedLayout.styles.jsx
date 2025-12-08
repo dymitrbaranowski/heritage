@@ -35,13 +35,13 @@ export const Logo = styled.h1`
   letter-spacing: 4px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #69b9ff;
+  color: #9d331f;
 `;
 export const Nav = styled.nav`
   display: flex;
 `;
 export const ListItem = styled.li`
-  color: #676770;
+  color: #bc6d4f;
   font-size: 16px;
   transition: color 0.3s ease;
 `;
@@ -62,15 +62,15 @@ export const ItemUl = styled.ul`
 
 export const ItemLink = styled(NavLink)`
   font-size: 16px;
-  color: #676770;
+  color: #bc6d4f;
   transition: color 0.3s ease;
 
   &:hover {
-    color: #69b9ff;
+    color: #9d331f;
     /* color: #0082F3; */
   }
   &:active {
-    color: #0065bd;
+    color: #500805;
     /* color: #0062b6; */
   }
   /* padding: 8px 16px;
