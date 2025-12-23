@@ -17,7 +17,9 @@ export const SharedLayout = () => {
       <Header>
         {/* <Container> */}
         <Container>
-          <Logo>Heritage Keepers </Logo>
+          <img src="/public/img/Earth.svg" width={150} />
+
+          <Logo>Heritage Keepers</Logo>
           <Nav>
             <ItemUl>
               <ListItem>

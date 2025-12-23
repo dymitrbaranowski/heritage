@@ -5,6 +5,7 @@ export const About = () => {
     <Main>
       <h1>About Us</h1>
       <img src="/public/vite.svg" />
+      <img src="/public/img/Earth.svg" width={150} />
       <p>
         МЕЖДУНАРОДНЫЙ ЦЕНТР "Хранители наследия" августа 2025 г. <br />
         Устав 1. <br />
