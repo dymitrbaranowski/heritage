@@ -4,10 +4,12 @@ import { Outlet } from "react-router-dom";
 import {
   Container,
   Header,
+  ImgIcon,
   ItemLink,
   ItemUl,
   ListItem,
   Logo,
+  LogoDiv,
   Nav,
 } from "./SharedLayout.styles";
 
@@ -17,9 +19,11 @@ export const SharedLayout = () => {
       <Header>
         {/* <Container> */}
         <Container>
-          <img src="/public/img/Earth.svg" width={150} />
+          <LogoDiv>
+            <ImgIcon src="/public/img/Earth.svg" />
 
-          <Logo>Heritage Keepers</Logo>
+            <Logo>Heritage Keepers</Logo>
+          </LogoDiv>
           <Nav>
             <ItemUl>
               <ListItem>

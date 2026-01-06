@@ -4,15 +4,26 @@ import { NavLink } from "react-router-dom";
 export const Container = styled.div`
   max-width: 970px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+`;
+export const ImgIcon = styled.img`
+  width: 150px;
+  object-fit: fill;
+  margin: -20px;
+  /* margin-left: 130px; */
+  /* position: absolute; */
+`;
+export const LogoDiv = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 export const Header = styled.header`
-  padding: 0 20px;
+  padding: 20px;
   position: absolute;
   top: 0;
   left: 0;
