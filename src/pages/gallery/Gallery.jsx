@@ -50,20 +50,6 @@ export const Gallery = () => {
         </li>
         <li>
           <img
-            src="https://i.ibb.co/84XHPBtq/010.jpg"
-            alt="010 хс"
-            border="0"
-          ></img>
-        </li>
-        <li>
-          <img
-            src="https://i.ibb.co/dJ0qbRhc/011.jpg"
-            alt="011 хс"
-            border="0"
-          ></img>
-        </li>
-        <li>
-          <img
             src="https://i.ibb.co/dJ0qbRhc/011.jpg"
             alt="011 хс"
             border="0"
