@@ -15,7 +15,7 @@ export const Home = () => {
         <WHeading>This is Heritage Keepers</WHeading>
         {/* <img src="https://via.placeholder.com/960x240" alt="" /> */}
         <LinkDiv>
-          <Button />
+          <Button prop="Learn more" />
           <LinkPrimary>sign up</LinkPrimary>
           {/* <LearnLink>Learn more</LearnLink> */}
         </LinkDiv>

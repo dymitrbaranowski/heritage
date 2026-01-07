@@ -10,3 +10,8 @@ export const Main = styled.main`
   /* justify-content: space-between; */
   /* align-items: center; */
 `;
+export const ButtonMore = styled.button`
+  padding: 25px;
+  background-color: red;
+  opacity: 0.8;
+`;

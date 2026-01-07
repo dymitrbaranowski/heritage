@@ -1,13 +1,25 @@
-import { Main } from "./About.styled";
+import { Button } from "@/components/button/Button";
+import { ButtonMore, Main } from "./About.styled";
+// import { useState } from "react";
 
 export const About = () => {
+  // const [buttonName] = useState("Дізнатися більше...");
   return (
     <Main>
-      <container>
-        <h1>About Us</h1>
+      <section>
+        <h1>Наша місія та чим ми займаємось.</h1>
         <img src="/public/img/Earth.svg" width={250} />
-
-        <img src="/public/img/center.jpg" width={150} />
+        <div>
+          <a>
+            <img src="/public/img/center.jpg" width={150} />
+            <h2>
+              Керівник організації <br />
+              Радимир Міляр
+            </h2>
+            {/* <Button prop={buttonName} /> */}
+            <Button prop="Дізнатися більше" />
+          </a>
+        </div>
         <p>
           МЕЖДУНАРОДНЫЙ ЦЕНТР "Хранители наследия" августа 2025 г. <br />
           Устав 1. <br />
@@ -83,7 +95,7 @@ export const About = () => {
           колектив однодумців, обʼєднаних ідеєю відродження культури. Це, перш
           за все, рух, що має за мету
         </p>
-      </container>
+      </section>
     </Main>
   );
 };
