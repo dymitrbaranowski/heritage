@@ -15,3 +15,29 @@ export const ButtonMore = styled.button`
   background-color: red;
   opacity: 0.8;
 `;
+export const Team = styled.div`
+  margin: 75px 0;
+`;
+export const Mision = styled.h1`
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+
+  &:after {
+    content: "";
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+  }
+`;
+
+export const DivRow = styled.div`
+  margin: 75px 0;
+`;
+// export const DivCol = styled.div`
+//   margin: 75px 0;
+// `;

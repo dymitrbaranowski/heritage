@@ -20,4 +20,16 @@ export default defineConfig({
   build: {
     outDir: "out",
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        silenceDeprecations: [
+          "import",
+          "mixed-decls",
+          "color-functions",
+          "global-builtin",
+        ],
+      },
+    },
+  },
 });
